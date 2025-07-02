@@ -24,7 +24,7 @@ body {
 
 .card {
   
-  max-width: 350px;
+  max-width: 380px;
   background-color: hsl(0, 0%, 100%);
   padding: 1.5rem;
   border-radius: 1rem;
@@ -42,8 +42,8 @@ body {
 
 .image {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .badge {
@@ -51,7 +51,7 @@ body {
   font-weight: 800;
   background-color:  hsl(47, 88%, 63%);
   color: black;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   border-radius: 0.25rem;
   text-decoration: none;
   display: inline-block;
@@ -67,21 +67,23 @@ body {
 
 .date {
   color: hsl(0, 0%, 42%);
-  font-size: 0.75rem;
-  margin-top: 20px;
+  font-size: 0.875rem;
+  margin-top: 1rem;
 }
 
 .title,
 .title a{
-  font-size: 1.1rem;
-  color: hsl(47, 88%, 63%);
+  font-size: 1.25rem;
+  color: black;
   margin: 1rem 0;
+  font-weight: 800;
 }
 
 .description {
-  font-size: 0.875rem;
   color: hsl(0, 0%, 42%);
   margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .author {
